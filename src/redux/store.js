@@ -1,4 +1,4 @@
-import { configureStore, configureStore } from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
 import products from "./slices/productsSlice";
 import contador from "./slices/contadorSlice";
 

@@ -1,10 +1,10 @@
-import { Header, Main, OtherProducts, Footer } from "./components";
+import { Header, ContentMain, OtherProducts, Footer } from "./components";
 
 function App() {
   return (
     <>
       <Header />
-      <Main />
+      <ContentMain />
       <OtherProducts />
       <Footer />
     </>
