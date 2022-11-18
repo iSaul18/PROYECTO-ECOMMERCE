@@ -1,8 +1,89 @@
 .header {
-  padding: 0.5rem 2.5rem;
+  padding: 0.5rem 4rem;
   background-color: $color-black-transparent;
+
+  &__icon {
+    width: 2.8rem;
+    height: 2.8rem;
+    cursor: pointer;
+  }
 }
 
 .header-nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__buttons-container {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+}
+
+.footer {
+  margin-top: 15rem;
+  background-color: $color-primary-dark;
+  color: $color-gradish-text;
+
+  display: grid;
+  grid-template-columns: 48% 52%;
+
+  &__suscribe {
+    padding: 5rem 6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+    input {
+      width: 26rem;
+      border: none;
+      background-color: $color-primary;
+      padding: 1rem 3rem;
+      border-radius: 0.9rem;
+      outline: none;
+      color: $color-gradish-text;
+
+      &:focus {
+        box-shadow: 0.1rem 0.1rem 1rem lighten($color-primary, 10%);
+      }
+    }
+  }
+
+  &__social {
+    border-left: 0.2rem solid $color-gradish-text;
+    padding: 5rem 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+    picture {
+      display: flex;
+      align-items: center;
+      gap: 4rem;
+    }
+  }
+
+  &__copy {
+    padding: 8rem 0;
+    border-top: 0.2rem solid $color-gradish-text;
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    picture {
+      display: block;
+      transform: translateY(-10%) scale(1.8);
+    }
+  }
+
+  &__icon {
+    width: 2.8rem;
+    height: 2.8rem;
+    cursor: pointer;
+  }
 }

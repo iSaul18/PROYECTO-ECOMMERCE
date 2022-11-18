@@ -1,0 +1,31 @@
+.logo-container {
+  width: 6rem;
+  height: 5rem;
+  position: relative;
+  transform: scale(3) translateY(25%);
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 71%;
+    padding-bottom: 71%;
+    background-color: $color-white;
+    border-radius: 50%;
+    transform: translate(17%, 14%);
+    z-index: -1;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 49%;
+    padding-bottom: 10%;
+    background-color: $color-white;
+    transform: translate(50%, 695%);
+    z-index: -1;
+  }
+}
+
+.logo {
+  position: absolute;
+}

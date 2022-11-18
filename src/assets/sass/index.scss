@@ -1,4 +1,10 @@
 @import "./base/variables";
 @import "./base/general";
 
-@import "./partials/_layoutBase";
+// COMPONENTS
+@import "./partials/logo";
+
+//PAGE BASE
+@import "./partials/layoutBase";
+
+//PAGES
