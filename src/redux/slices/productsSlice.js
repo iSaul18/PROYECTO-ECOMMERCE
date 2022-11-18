@@ -14,6 +14,7 @@ const productsSlice = createSlice({
     builder.addCase(getProductsAction.pending, (state, action) => {
       state.isLoading = true;
     });
+
     builder.addCase(getProductsAction.fulfilled, (state, action) => {
       state.isLoading = false;
       state.products = action.payload;
