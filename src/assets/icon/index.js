@@ -4,3 +4,4 @@ export * from "./MenuIcon";
 export * from "./FacebookIcon";
 export * from "./TwitterIcon";
 export * from "./WhatsappIcon";
+export * from "./ArrowIcon";
