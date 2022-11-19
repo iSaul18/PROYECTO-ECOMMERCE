@@ -49,7 +49,7 @@ export const LayoutBase = () => {
           <picture>
             <Logo />
           </picture>
-          <p>© 2019 Bamboo All Rights Reserved</p>
+          <p>© {new Date().getFullYear()} Saul Porras All Rights Reserved</p>
         </div>
       </footer>
     </>

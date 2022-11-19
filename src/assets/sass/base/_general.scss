@@ -17,6 +17,10 @@ body {
   font-size: 1.6rem;
   line-height: 1.8;
   font-family: $font-primary;
+  overflow-x: hidden;
+  max-width: 144rem;
+  margin: 0 auto;
+  background-color: $color-gradish-text;
 }
 
 a {
@@ -42,4 +46,11 @@ button {
 .container {
   max-width: 144rem;
   margin: 0 auto;
+}
+
+// Mixis
+@mixin breakpoint($punto) {
+  @media screen and (max-width: $punto) {
+    @content;
+  }
 }
